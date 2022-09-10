@@ -299,6 +299,189 @@ footer div {
     margin-bottom: 50px
 }
 
+/* ----------------about section-------------- */
+
+.about-main {
+    padding-top: 50px;
+}
+
+.about-header {
+    font-size: 30px;
+    font-family: 'lato', sans-serif;
+    text-transform: uppercase;
+    color: #ec5242;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.about-paragraph {
+    font-size: 12px;
+    width: 550px;
+    margin: auto;
+    background-color: rgb(244, 242, 242);
+    font-family: 'lato', sans-serif;
+    color: #313232;
+    padding: 20px 18px;
+    line-height: 18px;
+}
+
+.about-paragraph2 {
+    padding-top: 30px;
+    font-size: 13px;
+    font-family: 'lato', sans-serif;
+    color: #313232;
+    text-align: center;
+}
+
+.about-paragraph-mail {
+    font-family: 'lato', sans-serif;
+    border-bottom: 1px solid #313232;
+    width: 160px;
+    color: #313232;
+    margin: auto;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 900;
+}
+
+.about-section {
+    padding-left: 10%;
+    padding-top: 10%;
+    padding-right: 10%;
+    background-image: linear-gradient(180.45deg, rgba(182, 175, 175, 0) 2.75%, rgba(246, 242, 242, 0.9) 15.94%), url('./capstone1-gym-photos/pexels-lukas-669584.jpg');
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 90px;
+}
+
+.about-section2-header{
+    color: #313232;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'lato', sans-serif;
+}
+
+.about-section2-paragraph {
+    color: #313232;
+    width: 650px;
+    margin: auto;
+    font-family: 'lato', sans-serif;
+    margin-top: 30px;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.futuristic {
+    font-size: 45px;
+    font-family: 'great vibes', cursive;
+    font-weight: 700;
+    text-align: center;
+    width: 160px;
+    margin: auto;
+    padding: 12px 45px;
+    border: 2px #e0e3e3 solid;
+}
+
+.about-hr {
+    margin: 30px 0;
+    background-color: #d3d3d3;
+    height: 2px;
+    border: none;
+}
+
+.about-section3 {
+    text-align: center;
+    font-family: 'lato', sans-serif;
+}
+
+.about-section3-last-head {
+    font-size: 24px;
+    color: #313232;
+}
+
+.about-section3-paragraph {
+    font-size: 14px;
+    color: #313232;
+    margin-top: 15px;
+}
+
+.about-section3-card {
+    height: 150px;
+    width: 330px;
+    background-image: linear-gradient(180.45deg, rgba(182, 175, 175, 0), rgba(249, 52, 52, 0.5) 0), url("./capstone1-gym-photos/state-of\ -the-art-equip-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 10px;
+    color: #e0e3e3;
+}
+
+.about-section3-card2 {
+    height: 150px;
+    width: 330px;
+    background-image: linear-gradient(180.45deg, rgba(182, 175, 175, 0), rgba(249, 52, 52, 0.5) 0), url("./capstone1-gym-photos/instrucor-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 10px;
+    transition: all 0.5s ease-in-out;
+    color: #e0e3e3;
+}
+
+.about-section3-card2:hover {
+    background-image: url("./capstone1-gym-photos/instrucor-3.jpg");
+    transition: all 0.5s ease-in-out;
+}
+
+.about-section3-card:hover {
+    background-image: url("./capstone1-gym-photos/state-of\ -the-art-equip-2.jpg");
+    transition: all 0.5s ease-in-out;
+}
+
+.about-section3-card-texts {
+    font-size: 18px;
+    text-align: center;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.about-section3-card-div {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+    flex-wrap: wrap;
+}
+
+.about-footer-bottom {
+    background: #272a31;
+    color: #d3d3d3;
+    margin-top: 30px;
+}
+
+.about-footer-bottom-header {
+    padding-top: 30px;
+}
+
+.about-footer-bottom-paragraph {
+    padding-top: 30px;
+    margin-bottom: 20px
+}
+
+.about-partner-footer {
+    display: none;
+}
+
+.about-footer-div1 {
+    display: none;
+}
+
+.line11 {
+    display: none;
+}
+
 .form {
     display: none;
 }
