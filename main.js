@@ -3,7 +3,6 @@ const menu = document.querySelector('.menu');
 const logo = document.querySelector('.logo');
 const lists = document.querySelectorAll('.list')
 
-
 ham.addEventListener('click', function(){
     ham.classList.toggle('active');
     menu.classList.toggle('in-active');
@@ -18,7 +17,6 @@ spreadList.forEach((list) => {
     logo.classList.toggle('in-active');
   });
 });
-
 
 instructors = [{
     instructorName: 'Kenny Elias',
@@ -57,7 +55,6 @@ instructors = [{
   },
   ];
   
-  
   const cover = document.querySelector('.trainers')
   
   instructors.forEach((train) => {
@@ -83,3 +80,100 @@ instructors = [{
     list.classList.toggle('tap')
    })
   })
+
+  const button = document.querySelector('.second-section-end-mobile');
+const form = document.querySelector('.form');
+const btn2 = document.querySelector('.btn2');
+const toggle = document.querySelector('.toggle');
+const thirdSec = document.querySelector('.third-section');
+const cards = document.querySelector('.cards');
+
+button.addEventListener('click', () => {
+  form.style.display = "block"
+  document.body.style.overflow = "hidden"
+  thirdSec.style.filter = 'blur(2px)'
+  cards.style.filter = 'blur(4px)'
+  button.style.filter = 'blur(4px)'
+})
+
+toggle.addEventListener('click', () => {
+  form.style.display = 'none'
+  document.body.style.overflow = 'initial'
+  thirdSec.style.filter = 'none'
+  cards.style.filter = 'none'
+  button.style.filter = 'none'
+})
+
+// --------------formvalidation---------
+
+const nameError = document.querySelector('.nameErr')
+const emailError = document.querySelector('.emailErr')
+const textError = document.querySelector('.textErr')
+const submitError = document.querySelector('.submitErr')
+
+function nameMss() {
+  const names = document.querySelector('.name').value;
+  const name = document.querySelector('#name');
+  if (name.length === 0) {
+    nameError.innerHTML = 'Required';
+    nameError.style.color = 'red';
+    name.style.border = '1px solid red';
+    return false;
+  }
+  if (!names.match(/^[a-zA-Za]*\s[a-zA-Za]*$/)) {
+    nameError.innerHTML = '<i class="fa-solid fa-circle-xmark"></i>';
+    nameError.style.color = 'red';
+    name.style.border = '1px solid red';
+    return false;
+  }
+  nameError.innerHTML = '<i class="fa-solid fa-circle-check"></i>';
+  nameError.style.color = 'green';
+  name.style.border = '1px solid green';
+  return true;
+}
+
+function emailMss() {
+  const emails = document.querySelector('.email').value;
+  const email = document.querySelector('#email');
+  if (emails.length === 0) {
+    emailError.innerHTML = 'Required';
+    emailError.style.color = 'red';
+    email.style.border = '1px solid red';
+    return false;
+  }
+  if (!emails.match(/^[a-z-0-9.!#$%&'*+/=?^_`{|}~-]+@[a-z-0-9-]*\.[a-z]+(?:\.[a-z-0-9-]+)*$/)) {
+    emailError.innerHTML = '<i class="fa-solid fa-circle-xmark"></i>';
+    emailError.style.color = 'red';
+    email.style.border = '1px solid red';
+    return false;
+  }
+  emailError.innerHTML = '<i class="fa-solid fa-circle-check"></i>';
+  emailError.style.color = 'green';
+  email.style.border = '1px solid green';
+  return true;
+}
+
+function textareaMss() {
+  const textareas = document.querySelector('.textarea').value;
+  const required = 30;
+  const left = required - textareas.length;
+  if (left > 0) {
+    textError.innerHTML = `<i class="fa-solid fa-circle-xmark"></i>`;
+    textError.style.color = 'red';
+    return false;
+  }
+  textError.innerHTML = '<i class="fa-solid fa-circle-check"></i>';
+  textError.style.color = 'green';
+  return true;
+}
+
+function submitMss() {
+if (!nameMss() || !emailMss() || !textareaMss()) {
+  submitError.style.display = 'block';
+  submitError.innerHTML = 'please fix';
+  submitError.style.color = 'red';
+  setTimeout(() => { submitError.style.display = 'none'; }, 4000);
+  return false;
+}
+return true;
+}
