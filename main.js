@@ -20,3 +20,66 @@ spreadList.forEach((list) => {
 });
 
 
+instructors = [{
+    instructorName: 'Kenny Elias',
+    instructorImage: './capstone1-gym-photos/future-look.jpg',
+    aboutInstructor: 'Founder and CEO of Futuristic Gyms. Has a very nice big donought too.',
+    instructorMessage: 'We can do all things as long as we believe in ourselves and have a real reason we want to succeed and also being disciplined.',
+  },{
+    instructorName: 'Victoria Ogundele',
+    instructorImage: './capstone1-gym-photos/future-look.jpg',
+    aboutInstructor: 'Wonder woman like instructor. 5yrs experience in looking and being hot',
+    instructorMessage: 'You live in the moment, you wont move forward. If you look at the future while in the moment, you will be great in the long run',
+  },{
+    instructorName: 'Kelvin Evaristus',
+    instructorImage: './capstone1-gym-photos/future-look.jpg',
+    aboutInstructor: 'Agbero number1. expert breaking bottles on heads. 79yrs experience in doing bad things',
+    instructorMessage: 'All you need to do is find that bottle with the perfect texture and strength...Dont forget to look at the grip of the bottle too',
+    className: 'hide',
+  },{
+    instructorName: 'Gideon Walters',
+    instructorImage: './capstone1-gym-photos/future-look.jpg',
+    aboutInstructor: 'Expert martial artist. Black belt kung fu and karate holder. Trained accross asia',
+    instructorMessage: 'We are all warriors! All we need to do is let loose of fear in us, and we will be able to move mountains with a tip of a finger',
+    className: 'hide',
+  },{
+    instructorName: 'Emmanuel Nwank',
+    instructorImage: './capstone1-gym-photos/future-look.jpg',
+    aboutInstructor: 'Physically short, and argues alot, even when he is wrong, he believes he is right',
+    instructorMessage: 'No matter how right a person might be, there is always a false statement in their lips. So never make anyone make you feel wrong',
+    className: 'hide',
+  },{
+    instructorName: 'Camsey Roland',
+    instructorImage: './capstone1-gym-photos/future-look.jpg',
+    aboutInstructor: 'Expert track runner. 10years experience training somme of the best in the world',
+    instructorMessage: "Distance slows us down while thinking about it... Close your eyes and move, you'll get there before you even realize it",
+    className: 'hide',
+  },
+  ];
+  
+  
+  const cover = document.querySelector('.trainers')
+  
+  instructors.forEach((train) => {
+  const div = document.createElement("div");
+  div.innerHTML += `
+  <img src="${train.instructorImage}" class="${train.className}" alt="">
+                      <div class="first-speaker-div ${train.className}">
+                          <h3 class="first-speaker-h3">${train.instructorName}</h3>
+                          <p class="first-speaker-p1">${train.aboutInstructor}</p>
+                          <p class="first-speaker-p2">${train.instructorMessage}</p>
+                      </div>
+  `
+  div.classList.add('first-speaker')
+  cover.append(div)
+  })
+  const speakDiv = document.querySelectorAll('.hide')
+  const btn = document.querySelector('.button');
+  const spreadLis = [...speakDiv];
+  
+  btn.addEventListener('click', function(){
+    btn.classList.toggle('select')
+    spreadLis.forEach((list) => {
+    list.classList.toggle('tap')
+   })
+  })
