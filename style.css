@@ -749,14 +749,14 @@ footer h2 {
 
   .nameErr {
     position: absolute;
-    top: 25px;
+    top: 30px;
     right: 20px;
   }
 
   .emailErr {
     position: absolute;
     right: 20px;
-    top: 70px;
+    top: 85px;
   }
 
   .textErr {
