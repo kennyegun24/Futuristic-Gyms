@@ -9,6 +9,12 @@ ham.addEventListener('click', () => {
   logo.classList.toggle('in-active');
 });
 
+logo.addEventListener('click', () => {
+  ham.classList.toggle('active');
+  menu.classList.toggle('in-active');
+  logo.classList.toggle('in-active');
+});
+
 const spreadList = [...lists];
 spreadList.forEach((list) => {
   list.addEventListener('click', () => {
