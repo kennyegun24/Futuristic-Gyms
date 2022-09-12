@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Kenny Portfolio
+# Futuristic Gyms
 
 > Futuristic Gyms
 > This is a project based on a brand called "Futuristic Gyms". All contents and name of brand were created by me.
@@ -13,7 +13,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link]()
+[Live Demo Link](https://kennyegun24.github.io/Futuristic-Gyms/)
 
 ## Getting Started
 
@@ -40,16 +40,11 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@kenny_eLiasUTD](https://twitter.com/kenny_eLiasUTD)
 - LinkedIn: [kenny egun](https://linkedin.com/in/kenny-egun-2ba905222/)
 
-Contributions, issues, and feature requests are welcome!
+Contributions, issues, and feature requests are welcome !
 
-Feel free to check the [issues page](https://github.com/kennyegun24/Mobile-Version/issues).
+Feel free to check the [issues page](https://github.com/kennyegun24/Futuristic-Gyms/issues).
 
  **Contributor**
-
-👤 **John Adibe**
-- GitHub: [@githubhandle](https://github.com/johnadibe)
-- Twitter: [@twitterhandle](https://twitter.com/JohnAdibe2)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/john-adibe-400b36166/)
 
 ## Show your support
 
@@ -57,7 +52,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-Codes written by me. Template provided by Microverse
+Codes written by me. Designed Cindy Shin the author of the original [Design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
 ## 📝 License
 
