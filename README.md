@@ -11,9 +11,13 @@
 - HTML
 - JavaScript
 
-## Live Demo (if available)
+## Live Demo
 
 [Live Demo Link](https://kennyegun24.github.io/Futuristic-Gyms/)
+
+## Loom link
+
+[Loom link](https://www.loom.com/share/8408253e59154d82a4d46c71e0aee24f)
 
 ## Getting Started
 
