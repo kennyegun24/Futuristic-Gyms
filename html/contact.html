@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"/>
+    <link rel="stylesheet" href="/style/contact.css">
+    <script src="https://kit.fontawesome.com/95c0469538.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav class="first-nav">
+            <div class="first-nav-div">
+            <a href="" class="f-n-h">facebook</a>
+            <a href="" class="f-n-j">twitter</a>
+            <a href="" class="f-n-k">English</a>
+            <a href="" class="f-n-l">logout</a>
+            </div>
+        </nav>
+        <nav class="nav">
+            <h2 class="logo">
+                <a href="index.html">Futuristic</a>
+            </h2>
+
+            <nav class="nav-menu">
+                <ul class="menu">
+                    <li class="list"><a href="index.html">Home</a></li>
+                    <li class="list"><a href="about.html">About</a></li>
+                    <li class="list"><a href="#services">Services</a></li>
+                    <li class="list"><a href="contact.html">Contact</a> </li>
+                    <li class="list"><a href="#">Extras</a></li>
+                    <li class="list"><a href="#home">Exercise</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger">
+                <div class="ham1"></div>
+                <div class="ham2"></div>
+                <div class="ham3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="contact-us-main">
+        <section class="contact-section">
+            <div class="hhh">
+                <h2 class="contact-us-header">
+                    We are a very big family that encourage growth!
+                </h2>
+                <p class="contact-us-paragraph">
+                    Limit is just a word, We should not let it define us! There is no excuse to limiting yourself!
+                </p>
+            </div>
+
+            <div class="vid">
+
+            <div class="form-content">
+                <div class="form-left">
+                    <img src="/capstone1-gym-photos/undraw_personal_trainer_re_cnua.svg" alt="">
+                </div>
+                <div class="form-right">
+                    <form action="" method="post" class="my-contact" id="my-contact">
+                        <h1>Sign up with us today</h1> 
+                        <div class="form-validation">
+                            <input onkeyup="nameFun()" type="text" class="contact-name vid-input" id="contact-name" placeholder="Enter your name">
+                            <p class="c-name-error contErr"></p>
+                        </div>
+                        <div class="form-validation">
+                            <input onkeyup="emailFun()" type="text" class="contact-mail vid-input" id="contact-mail" placeholder="Enter your email">
+                            <p class="c-mail-error contErr"></p>
+                        </div>
+                        <div class="form-validation">
+                            <textarea onkeyup="textareaFun()" name="textarea" id="contact-text" cols="30" rows="10" class="contact-text"></textarea>
+                            <p class="c-text-error contErr"></p>
+                        </div>
+                        <div class="form-validation">
+                            <input onclick="return submitFun()" type="submit" class="contact-submit vid-submit" id="contact-name" value="Submit">
+                            <p class="c-submit-error contErr"></p>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <h2 class="about-partner-footer">
+            Partners
+        </h2>
+        <hr class="line1">
+        <div class="about-footer-div1">
+            <h3 class="light">
+                Google
+            </h3>
+            <h3 class="solid">
+                Sheraton-Hotels
+            </h3>
+            <h3 class="light">
+                Coca Cola
+            </h3>
+            <h3 class="solid">
+                Fearless
+            </h3>
+            <h3 class="light">
+                Fits&Sexy
+            </h3>
+        </div>
+        <div class="about-footer-bottom">
+            <h1 class="about-footer-bottom-header">
+                Futuristic Gyms and Fitness
+            </h1>
+
+            <p class="about-footer-bottom-paragraph">
+                @2022, Authorized by health governing body.  
+                <br>
+                &copy; Terms and Conditions apply.  
+            </p>
+        </div>
+    </footer>
+
+    <script src="/src/contact.js"></script>
+</body>
+</html>
