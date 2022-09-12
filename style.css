@@ -350,6 +350,10 @@ footer h2 {
   margin-bottom: 50px;
 }
 
+.button {
+  display: none;
+}
+
 @media (max-width: 765px) {
   .first-nav {
     display: none;
@@ -592,13 +596,20 @@ footer h2 {
   }
 
   .button {
-    font-size: 40px;
+    justify-content: center;
+    display: flex;
+    font-size: 12px;
     text-align: center;
     margin-top: -80px;
-    border: 2px solid #ec5242;
-    color: #ec5242;
+    border: 2px solid #d3d3d3;
+    color: #313232;
     cursor: pointer;
     transition: all 0.5s ease-in-out;
+    height: 20px;
+  }
+
+  .btn {
+    color: #ec5242;
   }
 
   .hide {
