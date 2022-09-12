@@ -58,7 +58,7 @@
 }
 
 .form-right {
-  background: #ec5242;
+  background: #111;
   height: 100%;
   padding-left: 40px;
   padding-right: 40px;
@@ -74,10 +74,11 @@
   transform: translate(-50%, -50%);
 }
 
-.my-contact h1 {
+.my-contact h2 {
   text-align: center;
   margin-bottom: 1rem;
   width: 90%;
+  color: #fff;
 }
 
 .form-validation {
@@ -142,7 +143,7 @@
     margin-bottom: 0;
   }
 
-  .my-contact h1 {
+  .my-contact h2 {
     display: flex;
     width: 90%;
     left: 30%;
@@ -158,7 +159,7 @@
     width: 80%;
     padding-top: 30px;
     min-height: 400px;
-    background: #ec5242;
+    background: #111;
   }
 
   .my-contact {
