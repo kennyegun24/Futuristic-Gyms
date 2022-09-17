@@ -692,8 +692,8 @@ footer h2 {
   .card {
     display: flex;
     align-items: center;
-  }
-
+  } 
+  
   .card h3 {
     width: 50%;
     margin-right: 10px;
@@ -703,6 +703,7 @@ footer h2 {
   .card p {
     text-align: left;
     width: 100%;
+    font-size: 12px;
   }
 
   .card i {
