@@ -1,6 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Futuristic Gyms
+This project was my first capstone project under microverse, this is a very basic website that shows my skills in using HTML, CSS AND JS without using any framework to develop a static page
 
 > Futuristic Gyms
 > This is a project based on a brand called "Futuristic Gyms". All contents and name of brand were created by me.
